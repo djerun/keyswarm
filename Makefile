@@ -8,5 +8,5 @@ dist-single:
 	rm -rf dist/
 	pyside2-rcc resources.qrc -o keyswarm/resources.py
 	pyinstaller main-single.spec
-install:
+prepare:
 	pyside2-rcc resources.qrc -o keyswarm/resources.py
